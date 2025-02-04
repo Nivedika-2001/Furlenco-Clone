@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+
+.offersInput {
+  align-items: center;
+  border: none;
+  padding: 15px 0px 15px 0px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  justify-content: space-between;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.offersInput:focus {
+  outline: none;
+}
+.offerDiv {
+  display: flex;
+  background-color: #f3f3f3;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 10px;
+  font-weight: 600;
+  width: 400px;
+  justify-content: space-around;
+}
+.offersButton {
+  outline: none;
+  font-weight: 600;
+  border: none;
+  color: #069baa;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+.offerLogo {
+  height: 70px;
+  width: 70px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.applyCodeButton {
+  border: none;
+  background-color: #fff;
+  font-weight: 500;
+  padding: 10px 15px;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.applyCodeButton:hover {
+  background-color: #069baa;
+  color: #fff;
+}
+.offerBg {
+  background-color: #fff5b7;
+  border-radius: 5px;
+}
+.offerBgMargin {
+  margin-bottom: 15px;
+}
+.offerDivApply {
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: space-around;
+}
+.couponText {
+  color: #937517;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+.designOffer {
+  display: flex;
+  gap: 10px;
+  padding: 15px 10px 0px 10px;
+}
+.couponD {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.offerTitle {
+  font-family: "Recursive", sans-serif;
+  font-size: 20px;
+}
+.offerHorizontal {
+  color: orange;
+  margin-block-start: 0px;
+}
+.offerDetails {
+  font-size: 15px;
+  color: #555555;
+}
+
+#canvas {
+  width: 500px;
+  padding: 25px;
+}
+.offerP {
+  font-family: "Recursive", sans-serif;
+  font-size: 18px;
+  margin-top: 35px;
+}
+.saleImg {
+  height: 30px;
+  width: 30px;
+}
+.buttonSale {
+  background-color: #fff5b7;
+  border-radius: 10px;
+  border: none;
+}
+
+.discountText {
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+}
+.saleDiv {
+  display: flex;
+  padding: 7px 10px;
+  gap: 5rem;
+  justify-content: center;
+}
+.saleIcon {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+  padding-left: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 6px;
+}
+.discountTextAvailable {
+  color: #555555;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-top: 17px;
+  font-family: "Work Sans", sans-serif;
+}
+.div1,
+.div2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.saveText {
+  color: #1d9428;
+}
+.applyCodeButton1 {
+  border: none;
+  color: #fff;
+  background-color: #1d9428;
+  font-weight: 500;
+  padding: 10px 15px;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.applyCodeButton1:hover {
+  cursor: text;
+}
+.paddingPay{
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

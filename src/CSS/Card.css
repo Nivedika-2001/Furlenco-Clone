@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Work+Sans:wght@300&display=swap");
+.itemCount {
+  color: green;
+}
+.noH {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+.glass {
+  height: 300px;
+  margin-top: 60px;
+  width: 300px;
+  object-fit: contain;
+}
+.noResult {
+  text-align: center;
+}
+.searched {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 55px;
+  font-family: "Work Sans", sans-serif;
+}
+.favoriteBorder {
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: 15px 15px 0px 0px;
+}
+.addTocartButton {
+  padding: 10px 20px;
+  border: 1px solid #f3f3f3;
+  border-radius: 15px;
+  font-family: "Work Sans", sans-serif;
+  background-color: #069baa;
+  color: #f3f3f3;
+  font-weight: bold;
+  text-align: center;
+}
+.addToCartDisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Toastify__toast--success .Toastify__close-button {
+  color: black; /* Change the color of the close button (tick mark) */
+  padding-top: 10px;
+}
+
+.Toastify__toast--error .Toastify__close-button {
+  color: #721c24;
+}
+
+.Toastify__toast-body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  --toastify-icon-color-success: #069baa;
+  border-radius: 1024px;
+}
+.Toastify__toast--success .Toastify__checkmark {
+  background-color: blue;
+  margin-right: 8px;
+}
+
+.Toastify__toast--success .Toastify__checkmark:after {
+  border-color: white;
+  border-radius: 1px;
+}

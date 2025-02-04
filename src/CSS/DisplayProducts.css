@@ -1,0 +1,64 @@
+.displayImages {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.tableProducts {
+  width: 100%;
+  border: 1.5px solid #000000;
+  overflow: hidden;
+  border: 10px solid black;
+}
+
+.tableProducts,
+th,
+td {
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  text-align: center;
+  margin: 25px;
+  border: 1.5px solid #000000; /* Set border color to black */
+}
+
+.divProducts {
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  background-color: #ceedf0;
+  color: #222222;
+}
+.paginate {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: #069baa;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 250px;
+}
+
+.paginate a {
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 20px;
+  color: #069baa;
+  border: 1.5px solid #069baa;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+.deleteProduct {
+  font-size: 25px;
+  cursor: pointer;
+}
+.paginate .selected > a {
+  background-color: #069baa;
+  color: #f3f3f3;
+}
+.paginate .previous .next {
+  background: #fff;
+}

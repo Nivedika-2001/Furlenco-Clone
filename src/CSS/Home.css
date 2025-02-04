@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Work+Sans:wght@300&display=swap");
+.slides {
+  height: 500px;
+  padding: 0px 40px;
+}
+.template {
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 25px;
+  height: 300px;
+  width: 75%;
+}
+.cardDesign {
+  width: 18rem;
+  height: 18rem;
+  margin: 25px 10px;
+  width: 250px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.cardDesign:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.rentProduct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.heart {
+  display: flex;
+  justify-content: end;
+}
+
+.titleProduct {
+  font-family: "Work Sans", sans-serif;
+  width: 200px;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.rent {
+  background-color: #ceedf0;
+  position: relative;
+  left: -17px;
+  color: #555555;
+  border-radius: 0px 15px 15px 0px;
+  padding: 5px 15px;
+}
+
+.card-text {
+  padding-top: 10px;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: space-evenly;
+}

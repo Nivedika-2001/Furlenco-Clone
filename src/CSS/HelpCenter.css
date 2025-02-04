@@ -1,0 +1,37 @@
+.helpH3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  color: #069baa;
+  font-weight: bolder;
+}
+.helpFlex {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+.imgHelp {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+.helpP {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  color: #69767c;
+  font-weight: 600;
+}
+.helpCenterButton {
+  background-color: #069baa;
+  color: #f3f3f3;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  width: 170px;
+}
+.insideHelp {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

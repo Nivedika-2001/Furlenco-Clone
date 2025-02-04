@@ -1,0 +1,93 @@
+.otp {
+  height: 50px;
+  border: 1px solid #76cdd6;
+  background-color: #f3f3f3;
+  width: 50px;
+  margin: 0px 10px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: auto;
+}
+.otp:focus {
+  outline: #76cdd6;
+}
+.otpError:focus {
+  outline: #cb1538;
+}
+.otpError {
+  height: 50px;
+  background-color: #f3f3f3;
+  width: 50px;
+  margin: 0px 15px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: auto;
+  border: 1.5px solid #cb1538;
+}
+.otp::-webkit-outer-spin-button,
+.otp::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.otpError::-webkit-outer-spin-button,
+.otpError::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.otp:focus {
+  outline: none !important;
+  border: 1px solid #76cdd6;
+}
+.combo1 {
+  display: flex;
+  margin-left: 20px;
+}
+.combo2 {
+  display: flex;
+  margin-left: 20px;
+}
+#edit {
+  font-size: 25px;
+  color: #000000;
+  cursor: pointer;
+}
+.arrow {
+  font-size: 35px;
+  margin-left: 50px;
+  color: #000000;
+  cursor: pointer;
+}
+#looginPp {
+  font-family: "Work Sans", sans-serif;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+.resendOTP {
+  color: #40b6c2;
+
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+}
+
+.resendButton {
+  color: #666666;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-family: "Work Sans", sans-serif;
+  cursor: auto;
+}
+.recaptcha {
+  visibility: hidden;
+}

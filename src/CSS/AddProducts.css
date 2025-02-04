@@ -1,0 +1,71 @@
+.addProducts {
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+.productInfo {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.productLabel {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.inputLabel {
+  border: 1.5px solid #777777;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-bottom: 15px;
+}
+.inputLabel:focus {
+  border: 1.5px solid #777777;
+}
+.inputLabel::-webkit-outer-spin-button,
+.inputLabel::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputLabelError {
+  border: 1.5px solid #cb1538;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+.inputLabelError::-webkit-outer-spin-button,
+.inputLabelError::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.productsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonProducts {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #069baa;
+  color: #f3f3f3;
+}
+.errorAddProducts {
+  color: #cb1538;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 4px;
+  display: block;
+  margin-bottom: 15px;
+}
+.bothBottonsProducts {
+  display: flex;
+}

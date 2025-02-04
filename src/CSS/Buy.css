@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Work+Sans:wght@300&display=swap");
+
+.buyProducts {
+  display: flex;
+  justify-content: space-evenly;
+}
+.buyImages {
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+}
+.buyTitle {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.buyText {
+  text-align: center;
+  color: #555555;
+}
+.clickBuy {
+  cursor: pointer;
+}
+.buyButton,
+.rentButton {
+  padding: 15px 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 20px;
+  color: #777777;
+  border: 2px solid #777777;
+}
+.buyButton:focus {
+  background-color: #424e99;
+  border: none;
+  color: #ffffff;
+}
+.rentButton:focus {
+  background-color: #ee5921;
+  border: none;
+  color: #ffffff;
+}
+.removeDecoration {
+  text-decoration: none;
+}
+.filter {
+  display: flex;
+  margin-top: 20px;
+}
+.sortBy {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #555555;
+  font-weight: bolder;
+  font-size: 18px;
+  padding-right: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+.buttonStyle {
+  font-size: 15px;
+  border-radius: 25px;
+  border: 2px solid #555555;
+  background-color: #fff;
+  color: #047992;
+  padding: 10px 15px 10px 10px;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+}
+.check {
+  display: flex;
+  padding: 0px 15px;
+}
+.checkIcon {
+  margin-left: 30px;
+  margin-top: 3px;
+}
+.filterBy {
+  display: flex;
+}
+#feature-menu {
+  border: 1px solid #069baa;
+  box-shadow: 0 5px 5px #069baa;
+  transition: box-shadow 0.5s ease-in-out;
+  padding: 15px 20px;
+  width: 200px;
+  margin-top: 2px;
+}
+#textStyle {
+  font-size: 15px;
+  padding: 0px;
+  font-weight: bolder;
+  font-family: "Work Sans", sans-serif;
+}
+.hrTag {
+  border: 1px solid #069baa;
+  box-shadow: 0 0px 7px #069baa;
+}
+.bgColor {
+  background-color: #f3f3f3;
+}
+.bgColor:focus {
+  background-color: #f3f3f3;
+}
+.categoryButton {
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 20px;
+  background-color: #424e99;
+  border: none;
+  color: #ffffff;
+}

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Work+Sans:wght@300&display=swap");
+
+#model {
+  margin: 30px 50px 50px 50px;
+}
+#looginP {
+  font-family: "Work Sans", sans-serif;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+#looginH3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #303133;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px 60px;
+}
+.loginImg {
+  height: 50px;
+  width: 40px;
+  object-fit: contain;
+}
+
+#login {
+  color: #069baa !important;
+  text-decoration: underline;
+  font-weight: bold;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  padding-left: 0px;
+  background-color: #ffffff;
+  outline: none;
+}
+
+#loginButton {
+  padding: 17px 80px;
+  background-color: #069baa;
+  color: #ffffff;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+#loginButton:hover {
+  background-color: #ffffff;
+  color: #069baa;
+  font-weight: 600;
+  border: 1px solid #069baa;
+  font-family: "Work Sans", sans-serif;
+}
+.modal-content {
+  text-decoration: none !important;
+}
+.modelBody {
+  text-align: center;
+}
+#modelHeader {
+  margin: 20px;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.combo {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  padding: 5px 25px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.formControl {
+  border: none;
+  width: 250px;
+  outline: none;
+  margin-left: 10px;
+  background-color: #f3f3f3;
+}
+.formControl::-webkit-outer-spin-button,
+.formControl::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.started {
+  color: #069baa;
+}
+.error {
+  color: #cb1538;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+.comboError {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  padding: 5px 25px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  justify-content: space-between;
+  margin-left: 50px;
+  border: 1.5px solid #cb1538;
+}
+.details {
+  margin-bottom: 20px;
+}
+.detailsInput {
+  align-items: center;
+  width: 350px;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+.detailsInput:focus {
+  outline: none;
+}
+.errorDetails {
+  color: #cb1538;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 60px;
+}
+.timerError {
+  color: #1d9428;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: 5px;
+}

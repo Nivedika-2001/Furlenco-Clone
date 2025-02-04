@@ -1,0 +1,13 @@
+.cursorChange {
+  cursor: not-allowed;
+}
+.editCi {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.stocksInput::-webkit-outer-spin-button,
+.stocksInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

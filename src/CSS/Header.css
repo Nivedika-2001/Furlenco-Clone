@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Work+Sans:wght@300&display=swap");
+.Logo {
+  height: 30px;
+  width: 150px;
+  object-fit: contain;
+}
+.Logo:hover {
+  cursor: pointer;
+}
+.header {
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icons:hover {
+  color: #069baa;
+  cursor: pointer;
+}
+.icons {
+  font-size: 1.5em;
+  color: #777777;
+  text-align: center;
+}
+.headerText {
+  font-size: 20px;
+  font-weight: 600;
+  color: #777777;
+  font-family: "Times New Roman";
+}
+.headerText:hover {
+  color: #069baa;
+  cursor: pointer;
+}
+
+.inputHeader {
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+.displayFlex {
+  display: flex;
+  cursor: pointer;
+  color: #777777;
+}
+.displayFlex:hover {
+  color: #069baa;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.delivery {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  /* margin: 2px; */
+  font-family: "Work Sans", sans-serif;
+}
+.unlmtd {
+  color: #6d6ab8;
+  font-family: "Times New Roman";
+}
+.unlmtd:hover {
+  color: #6a1a7f;
+  cursor: pointer;
+}
+.search {
+  border: 2px solid #777777;
+  padding: 0px 20px;
+  display: flex;
+  border-radius: 25px;
+}
+.searchIcon {
+  font-size: 1.5em;
+  color: #777777;
+  text-align: center;
+}
+.dropHover {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+.dropNone {
+  cursor: auto;
+}
+.dropdown-menu {
+  width: 200px;
+}
+#dp-menu {
+  border: 1px solid #069baa;
+  box-shadow: 0 5px 5px #069baa;
+  transition: box-shadow 0.5s ease-in-out;
+  padding-left: 20px;
+}
+#dp-menu:focus {
+  background-color: white;
+}
+#text {
+  font-size: 18px;
+  font-weight: bold;
+}
+#text:focus {
+  background-color: #fff;
+}
+#text:hover {
+  background-color: #fff;
+}
+.hrLength {
+  width: 150px;
+}
+.link {
+  text-decoration: none;
+  color: #777777;
+}
+.link:hover {
+  color: #069baa;
+}
+.addToCartLink {
+  color: #777777;
+}
+.addToCartLink:hover {
+  color: #069baa;
+}
